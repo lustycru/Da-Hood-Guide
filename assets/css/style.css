@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Bangla:ital@0;1&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&family=Trade+Winds&display=swap');
+
+body {
+    font-family: "Tiro Bangla", serif;
+    background: url(/assets/image/bg-la.PNG)no-repeat;
+    background-color: #171236;
+    background-size: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-magnifying-glass {
+    right: 50px;
+}
+
+.fa-bars {
+    left: 50px;
+}
+
+.fa-bars, .fa-magnifying-glass {
+    position: fixed;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: rgb(217, 217, 217, 0.10);
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    font-size: 20px;
+}
+
+.da-hood-title {
+    font-family: "Trade Winds", system-ui;
+    color: #D9D9D9;
+    font-size: 60px;
+    text-decoration: underline;
+    text-underline-offset: 15px;
+    text-decoration-thickness: 2px;
+    text-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;;
+    font-weight: 100;
+}
+
+.decouvrir {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.container-angle-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-angle-up {
+    font-size: 30px;
+    padding-top: 400px;
+}
+
+.decouvrir-container {
+    text-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    margin-top: 320px;
+}
+
+.desc-container p {
+    color: #D9D9D9;
+    width: 80%;
+}
+
+.desc-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top : 30px;
+    font-size: 25px;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.part {
+    background-color: hsl(217, 100%, 51%, 0.10);
+    width: 300px;
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    padding: 20px;
+    height: 300px;
+}
+
+.title {
+    font-family: "Titillium Web", sans-serif;
+    color: #D9D9D9;
+    font-weight: 600;
+    font-size: 40px;
+    text-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    margin-top: -90px;
+
+}
+
+.container-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.part p {
+    color: #D9D9D9;
+    font-size: 18px;
+}
+
+.contain-notice {
+    height: 400px;
+    background-color: #0665FF;
+}
+
+.contain-lexique, .contain-insigne {
+    height: 350px;
+}
+
+.check {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    background-color: #D9D9D9;
+    text-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;;
+    padding: 10px 80px;
+    border-radius: 15px;
+}
+
+.not {
+    color: #0665FF;
+}
+
+.ins, .lex {
+    color: #1D2261; 
+}
+
+.contain-notice p {
+    font-size: 20px;
+}
+
+.notice-txt {
+    padding-bottom: 20px;
+}
+
+.lexique-txt, .insigne-txt {
+    padding-bottom: 38px;
+}
+
+.lexique-txt, .insigne-txt, .notice-txt {
+    margin-top: -30px;
+}
+
+.fa-circle-info, .fa-book-open, .fa-a {
+    position: relative;
+    font-size: 100px;
+    bottom: 70px;
+    text-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    padding-bottom: 30px;
+}
