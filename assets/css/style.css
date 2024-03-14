@@ -28,7 +28,8 @@ body {
     background-color: rgb(217, 217, 217, 0.10);
     border-radius: 50%;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-    font-size: 20px;
+    font-size: 30px;
+    cursor: pointer;
 }
 
 .da-hood-title {
@@ -96,9 +97,10 @@ body {
     font-family: "Titillium Web", sans-serif;
     color: #D9D9D9;
     font-weight: 600;
-    font-size: 40px;
+    font-size: 50px;
     text-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-    margin-top: -90px;
+    margin-top: -110px; 
+    margin-bottom: 55   px;
 
 }
 
@@ -111,15 +113,16 @@ body {
 .part p {
     color: #D9D9D9;
     font-size: 18px;
+    margin-top: -20px;
 }
 
 .contain-notice {
-    height: 400px;
+    height: 500px;
     background-color: #0665FF;
 }
 
 .contain-lexique, .contain-insigne {
-    height: 350px;
+    height: 400px;
 }
 
 .check {
@@ -148,21 +151,64 @@ body {
 }
 
 .notice-txt {
-    padding-bottom: 20px;
+    padding-bottom: 80px;
 }
 
 .lexique-txt, .insigne-txt {
-    padding-bottom: 38px;
+    padding-bottom: 50px;
 }
 
-.lexique-txt, .insigne-txt, .notice-txt {
-    margin-top: -30px;
-}
-
-.fa-circle-info, .fa-book-open, .fa-a {
+.info, .book, .a {
     position: relative;
     font-size: 100px;
     bottom: 70px;
     text-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    padding-bottom: 50px;
+}
+
+.my-side-nav {
+    height: 100%;
+    width: 350px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: -400px;
+    background-color: #1D2261;
+    padding-top: 100px;
+    transition: left 0.5s ease;
+}
+.my-side-nav a {
+    color:#D9D9D9;
+    text-decoration: none;
+    padding: 8px 8px 8px 32px;
+    font-size: 30px;
+    display: block;
+    transition: 0.3s;
+    font-family: "Titillium Web", sans-serif;
+    text-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     padding-bottom: 30px;
+}
+.my-side-nav a:hover {
+    color: #0665FF;
+}
+.my-side-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.close {
+    position: absolute;
+    top: 0;
+    font-size: 50px;
+    left: 30px;
+    text-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    padding-bottom: 30px;
+    cursor: pointer;
+    padding-top: 20px;
+}
+.my-side-nav.active {
+    left: 0;
+}
+.my-side-nav i {
+    padding-right: 20px;
 }
