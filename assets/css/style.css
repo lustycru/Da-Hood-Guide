@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Tiro+Bangla:ital@0;1&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&family=Trade+Winds&display=swap');
+* {
+    scroll-behavior: smooth;
+}
+
 
 body {
     font-family: "Tiro Bangla", serif;
@@ -13,7 +17,7 @@ body {
     align-items: center;
 }
 
-.fa-magnifying-glass {
+.glass {
     right: 50px;
 }
 
@@ -21,7 +25,7 @@ body {
     left: 50px;
 }
 
-.fa-bars, .fa-magnifying-glass {
+.fa-bars, .glass {
     position: fixed;
     padding: 15px;
     margin-bottom: 10px;
@@ -108,6 +112,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-bottom: 100px;
 }
 
 .part p {
@@ -132,7 +137,6 @@ body {
     font-weight: 700;
     font-size: 40px;
     background-color: #D9D9D9;
-    text-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;;
     padding: 10px 80px;
     border-radius: 15px;
@@ -151,7 +155,7 @@ body {
 }
 
 .notice-txt {
-    padding-bottom: 80px;
+    padding-bottom: 65px;
 }
 
 .lexique-txt, .insigne-txt {
@@ -166,6 +170,10 @@ body {
     padding-bottom: 50px;
 }
 
+.book {
+    font-size: 120px;
+}
+
 .my-side-nav {
     height: 100%;
     width: 350px;
@@ -177,6 +185,7 @@ body {
     padding-top: 100px;
     transition: left 0.5s ease;
 }
+
 .my-side-nav a {
     color:#D9D9D9;
     text-decoration: none;
@@ -188,14 +197,17 @@ body {
     text-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     padding-bottom: 30px;
 }
+
 .my-side-nav a:hover {
     color: #0665FF;
 }
+
 .my-side-nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
 }
+
 .close {
     position: absolute;
     top: 0;
@@ -206,9 +218,98 @@ body {
     cursor: pointer;
     padding-top: 20px;
 }
+
 .my-side-nav.active {
     left: 0;
 }
+
 .my-side-nav i {
     padding-right: 20px;
+}
+
+.glass-nav {
+    padding-top: 100px;
+}
+
+.contact-card {
+    background-color: #D9D9D9;
+    padding: 20px;
+    border: 5px solid #00000021;
+    border-radius: 25px;
+    margin-bottom: 56px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.name-contact {
+    font-family: "Titillium Web", sans-serif;
+    font-size: 35px;
+    margin: 0;
+}
+
+.a-cote {
+    display: flex;
+    align-items: center;
+
+    h3, i {
+        margin-right: 16px;
+    }
+}
+
+.job {
+    padding: 1px 80px;
+    border: 1px solid #000000;
+    font-size: 20px;
+}
+
+.fa-user {
+    float: left;
+    font-size: 130px;
+    padding-right: 20px;
+    text-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.fa-address-card {
+    font-size: 30px;
+}
+
+.txt-contact {
+    font-size: 23px;
+    margin: 0;
+}
+
+.maj {
+    width: 700px;
+    text-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;;
+}
+
+.title-maj {
+    font-family: "Titillium Web", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.idees-maj {
+    display: flex;
+    align-items: center;
+    justify-content: center     ;
+}
+
+.new-maj {
+    font-family: "Titillium Web", sans-serif;
+    background-color: #FFE484;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    display: inline;
+    color: #000000;
+    font-weight: 700;
+    padding: 5px;
+    border-radius: 7px;
+    font-size: 20px;
+}
+
+.txt-maj {
+    color: #D9D9D9;
+    font-size: 18px;
+    padding-left: 20px;
 }
