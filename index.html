@@ -11,9 +11,10 @@
 
 <body>
     <header>
-        <!-- <video autoplay muted loop>
-            <source src="">
-        </video> -->
+        <video autoplay muted loop id="my-video">
+            <source src="assets/vid/Lil Loaded - 6locc 6a6y (Official Video) [shotbydonzo].mp4" type="video/mp4">
+        </video>
+        
         <div class="header">
             <i class="fa-solid fa-bars" style="color: #d9d9d9;"></i>
             <h1 class="da-hood-title">Da Hood Guide</h1>
@@ -31,8 +32,8 @@
         <div class="my-side-nav">
             <i class="fa-solid fa-xmark close" style="color: #D9D9D9;"></i>
             <ul>
-                <li><a href="#"><i class="fa-solid fa-house house-nav" style="color: #0665FF;"></i> Accueil</a></li>
-                <li><a href="#"><i class="fa-solid fa-book-open book-nav" style="color: #0665FF;"></i> Notice </a></li>
+                <li><a href="index.html"><i class="fa-solid fa-house house-nav" style="color: #0665FF;"></i> Accueil</a></li>
+                <li><a href="views/index-notice.html"><i class="fa-solid fa-book-open book-nav" style="color: #0665FF;"></i> Notice </a></li>
                 <li><a href="#"><i class="fa-solid fa-a a-nav" style="color: #0665FF;"></i>Lexique</a></li>
                 <li><a href="#"><i class="fa-solid fa-circle-info info-nav" style="color: #0665FF;"></i> Insignes </a></li>
                 <li><a href="#"><i class="fa-solid fa-spray-can spray-nav" style="color: #0665FF;"></i> Graffitis </a></li>
@@ -43,9 +44,7 @@
         </div>
         <div class="desc-container">
             <p>
-                "Explorez les sets de gangs de Los Angeles avec notre wiki spécialisé. Découvrez les quartiers, les
-                membres et les codes de ces groupes influents. De Compton à South Central, plongez dans cet univers
-                urbain complexe."</p>
+                "Explorez le monde clandestin des gangs de Los Angeles avec notre site de documentation sur les ensembles de gangs. Plongez dans l'histoire, la culture et la dynamique des gangs les plus notoires de la ville des anges. Découvrez des articles approfondis, des interviews exclusives, des cartes interactives et des données démographiques pour comprendre les rouages complexes de la vie des gangs à Los Angeles."</p>
         </div>
         <div class="decouvrir-container">
             <a href="#home" class="decouvrir title">Découvrir</a>
@@ -101,7 +100,7 @@
                 univers distincts.</p>
         </div>
 
-        <div class="contact-card">
+        <div class="contact-card last-card">
             <i class="fa-solid fa-user" style="color: #0665ff;"></i>
             <div class="a-cote">
                 <h3 class="name-contact">Blovvv</h3>
@@ -114,9 +113,47 @@
         </div>
     </main>
 
-    <footer>
+    <footer class="footer">
+        <div class="container">
+         <div class="row">
+           <div class="footer-col">
+             <h4> Navigation </h4>
+             <ul>
+               <li><a href="#">Notice</a></li>
+               <li><a href="#">Lexique</a></li>
+               <li><a href="#">Insignes</a></li>
+               <li><a href="#">Graffitis</a></li>
+             </ul>
+           </div>
+           <div class="footer-col">
+             <h4>Useful Links</h4>
+             <ul>
+               <li><a href="#">FAQ</a></li>
+               <li><a href="#">Services</a></li>
+               <li><a href="#">Contact</a></li>
+             </ul>
+           </div>
+           <div class="footer-col">
+             <h4>Legal</h4>
+             <ul>
+               <li><a href="#">Privacy</a></li>
+               <li><a href="#">Policy</a></li>
+               <li><a href="#">Terms</a></li>
+             </ul>
+           </div>
+           <div class="footer-col">
+             <h4>Contact</h4>
+             <div class="social-links">
+               <a href="#"><i class="fa-brands fa-discord"></i></a>
+               <a href="#"><i class="fa-brands fa-github"></i></a>
+               <a href="#"><i class="fa-brands fa-twitter"></i></a>
+               <a href="#"><i class="fa-solid fa-envelope"></i></i></a> 
+             </div>
+           </div>
+         </div>
+        </div>
+     </footer>
 
-    </footer>
     <script src="https://kit.fontawesome.com/474b53fd86.js" crossorigin="anonymous"></script>
     <script src="assets/js/script.js"></script>
 </body>

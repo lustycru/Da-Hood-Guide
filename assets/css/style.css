@@ -1,14 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Tiro+Bangla:ital@0;1&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&family=Trade+Winds&display=swap');
+
 * {
     scroll-behavior: smooth;
+    padding: 0;
 }
 
 
 body {
     font-family: "Tiro Bangla", serif;
-    background: url(/assets/image/bg-la.PNG)no-repeat;
-    background-color: #171236;
-    background-size: 100%;
+    background-color: rgb(23, 18, 54);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#my-video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    z-index: -1;
+    filter: opacity(15%);
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
 .header {
@@ -67,7 +81,7 @@ body {
 
 .decouvrir-container {
     text-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-    margin-top: 320px;
+    margin-top: 250px;
 }
 
 .desc-container p {
@@ -104,7 +118,7 @@ body {
     font-size: 50px;
     text-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     margin-top: -110px; 
-    margin-bottom: 55   px;
+    margin-bottom: 55px;
 
 }
 
@@ -112,7 +126,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-bottom: 100px;
+    padding-bottom: 190px;
 }
 
 .part p {
@@ -140,6 +154,11 @@ body {
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;;
     padding: 10px 80px;
     border-radius: 15px;
+    transition: all 0.5s ease;
+}
+
+.check:hover {
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 8px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -5px 0px inset;
 }
 
 .not {
@@ -200,6 +219,7 @@ body {
 
 .my-side-nav a:hover {
     color: #0665FF;
+    padding-left: 16px;
 }
 
 .my-side-nav ul {
@@ -293,7 +313,8 @@ body {
 .idees-maj {
     display: flex;
     align-items: center;
-    justify-content: center     ;
+    justify-content: center;
+    padding-bottom: 30px;
 }
 
 .new-maj {
@@ -310,6 +331,110 @@ body {
 
 .txt-maj {
     color: #D9D9D9;
-    font-size: 18px;
+    font-size: 22px;
     padding-left: 20px;
+    font-family: "Titillium Web", sans-serif;
+    text-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.container{
+  max-width: 1000px;
+  margin:auto;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul{
+  list-style: none;
+}
+
+.footer{
+    background-color: hsl(217, 100%, 51%, 0.10);;
+    padding: 70px 0;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    position: relative;
+    top: 150px;
+}
+
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+
+.footer-col h4{
+  font-size: 18px;
+  color: #D9D9D9;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+  font-family: "Titillium Web", sans-serif;
+}
+
+.footer-col h4::before{
+  content: '';
+  position: absolute;
+  left:0;
+  bottom: -10px;
+  background-color: rgb(255, 255, 255);;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+
+.footer-col ul li:not(:last-child){
+  margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  transition: all 0.3s ease;
+  font-family: "Titillium Web", sans-serif;
+}
+
+.footer-col ul li a:hover{
+  color: #ffffff;
+  padding-left: 8px;
+  text-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.footer-col .social-links a{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255,255,255,0.2);
+  margin:0 10px 10px 0;
+  text-align: center;
+  line-height: 45px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover{
+  color: #24262b;
+  background-color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
 }
