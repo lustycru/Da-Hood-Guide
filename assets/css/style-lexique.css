@@ -29,11 +29,18 @@ body {
     text-decoration-thickness: 2px;
     text-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;;
     font-weight: 100;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.notice-contain {
     background-color: #1D2261;
-    width: 75%;
+    width: 70%;
     text-align: center;
-    height: 5000px;
-    border-radius: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .glass {
@@ -58,7 +65,7 @@ body {
 
 .my-side-nav {
     height: 100%;
-    width: 350px;
+    width: 260px;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -66,13 +73,14 @@ body {
     background-color: #1D2261;
     padding-top: 100px;
     transition: left 0.5s ease;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
 }
 
 .my-side-nav a {
     color:#D9D9D9;
     text-decoration: none;
     padding: 8px 8px 8px 32px;
-    font-size: 30px;
+    font-size: 20px;
     display: block;
     transition: 0.3s;
     font-family: "Titillium Web", sans-serif;
@@ -80,18 +88,17 @@ body {
     padding-bottom: 30px;
 }
 
-.book-bars {
-    position: fixed;
-    border-radius: 50%;
-    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-    font-size: 35px;
-    left: 58px;
-    top: 130px;
+.my-side-nav ul li a i {
+    font-size: 30px;
 }
 
-.my-side-nav a:hover {
+.my-side-nav ul li a:hover {
     color: #0665FF;
     padding-left: 16px;
+}
+
+.my-side-nav ul li a {
+    transition: 0.3s;
 }
 
 .my-side-nav ul {
@@ -119,6 +126,181 @@ body {
     padding-right: 20px;
 }
 
-.glass-nav {
-    padding-top: 100px;
+.french-flag, .usa-flag {
+    height: 40px;
+}
+
+.language {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.title-section {
+    background-color: #D9D9D9;
+    width: 100%;
+    color: #0665FF;
+    text-transform: uppercase;
+    font-family: "Titillium Web", sans-serif;
+    font-size: 54px;
+    text-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    font-weight: 600;
+}
+
+.appel-vert-contain {
+    background-color: #EAFDEB;
+    border-left: 10px #5B895D solid;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 54px ;
+}
+
+.appel-vert-txt {
+    padding-right: 10px;
+    text-align: left;
+    font-size: 22px;
+}
+
+.appel-vert-contain i, .bleu i, .orange i {
+    font-size: 38px;
+    padding-right: 22px;
+    padding-left: 20px;
+    text-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+
+.txt-notice, .txt-vetements, .txt-quotidien, .txt-argent, .txt-beef, .txt-hierarchie, .evenement-txt {
+    color: #D9D9D9;
+    text-align: left;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
+
+.drip-us {
+    height: 300px;
+    padding-right: 30px;
+}
+
+.bleu {
+    background-color: #D3EFFF;
+    border-color: #0665FF;
+}
+
+.quotidien {
+    height: 380px;
+}
+
+.argent {
+    height: 240px;
+}
+
+.drogue {
+    border-radius: 10px;
+    padding-right: 0;
+    margin-right: 30px;
+}
+
+.orange {
+    background-color: #FEE3D3;
+    border-color: #C56F40;
+}
+
+.evenement {
+    height:350px ;
+}
+
+.footer{
+    background-color: hsl(217, 100%, 51%, 0.10);;
+    padding: 70px 0;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    position: relative;
+    top: 150px;
+}
+
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+
+.footer-col h4{
+  font-size: 21px;
+  color: #D9D9D9;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+  font-family: "Titillium Web", sans-serif;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col h4::before{
+  content: '';
+  position: absolute;
+  left:0;
+  bottom: -10px;
+  background-color: rgb(255, 255, 255);;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+
+.footer-col ul li:not(:last-child){
+  margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+  font-size: 20px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  transition: all 0.3s ease;
+  font-family: "Titillium Web", sans-serif;
+}
+
+.footer-col ul li a:hover{
+  color: #ffffff;
+  padding-left: 8px;
+  text-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.footer-col .social-links a{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255,255,255,0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 45px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover{
+  color: #24262b;
+  background-color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+ul {
+    list-style-type: none;
 }

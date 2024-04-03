@@ -7,12 +7,17 @@
     <title>Da Hood Guide </title>
     <link rel="sortcut icon" href="assets/image/icon2.png">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
     <header>
         <video autoplay muted loop id="my-video">
+<<<<<<< HEAD
+            <source src="assets/vid/Los Angeles en une minute _ bienvenue dans la cité des anges !.mp4" type="video/mp4">
+=======
             <source src="assets/vid/Lil Loaded - 6locc 6a6y (Official Video) [shotbydonzo].mp4" type="video/mp4">
+>>>>>>> parent of afece3c (details home (change video))
         </video>
         
         <div class="header">
@@ -41,10 +46,14 @@
                 <li><a href="#"><i class="fa-solid fa-dice-five dice-nav" style="color: #0665FF;"></i>Page Aléatoire</a></li>
                 <li><a href="#"> <i class="fa-solid fa-magnifying-glass glass-nav" style="color: #0665FF;"></i>Recherche</a></li>
             </ul>
+            <div class="language">
+                <li><a href="#"><img src="assets/image/france-flag-round-shape-free-png.webp" alt="drapeau francais" class="french-flag"></a></li>
+                <li><a href="#"><img src="assets/image/united-states-flag-round-icon-american-flag-png.webp" alt="drapeau usa" class="usa-flag"></a></li>
+            </div>
         </div>
         <div class="desc-container">
             <p>
-                "Explorez le monde clandestin des gangs de Los Angeles avec notre site de documentation sur les ensembles de gangs. Plongez dans l'histoire, la culture et la dynamique des gangs les plus notoires de la ville des anges. Découvrez des articles approfondis, des interviews exclusives, des cartes interactives et des données démographiques pour comprendre les rouages complexes de la vie des gangs à Los Angeles."</p>
+                "Explorez le monde clandestin des gangs de Los Angeles avec notre site de documentation sur les ensembles de gangs. Plongez dans l'histoire, la culture et la dynamique des gangs les plus notoires de Los Angeles. Découvrez des articles approfondis, des cartes interactives et des données démographiques pour comprendre les rouages complexes de la vie des gangs à Los Angeles."</p>
         </div>
         <div class="decouvrir-container">
             <a href="#home" class="decouvrir title">Découvrir</a>
@@ -70,7 +79,7 @@
             <div class="contain-notice part">
                 <i class="fa-solid fa-book-open book" style="color: #d9d9d9;"></i>
                 <h3 class="notice-title title">Notice</h3>
-                <p class="notice-txt">Cette notice est ce qui va vous servir de guide concernant le RP gang de rue de
+                <p class="notice-txt">Cette notice est ce qui va vous servir de guide concernant les gangs de rues de
                     Los
                     Angeles. Inspirez-vous-en au maximum afin d'avoir un meilleur réalisme en jeu. </p>
                 <div class="container-check">
@@ -89,19 +98,26 @@
         </div>
 
         <div class="contact-card">
-            <i class="fa-solid fa-user" style="color: #0665ff;"></i>
-            <div class="a-cote">
-                <h3 class="name-contact">Realusty</h3>
-                <i class="fa-solid fa-address-card" style="color: #0665ff;"></i>
-                <p class="job">Créateur du site</p>
+            <div>
+                <i class="fa-solid fa-user" style="color: #0665ff;"></i>
             </div>
-            <p class="txt-contact">Realusty, développeur amateur, navigue entre le monde du code (HTML, CSS,
-                JavaScript) et celui des gangs de Los Angeles, offrant une perspective singulière qui fusionne deux
-                univers distincts.</p>
+            <div>
+                <div class="a-cote">
+                    <h3 class="name-contact">Realusty</h3>
+                    <i class="fa-solid fa-address-card" style="color: #0665ff;"></i>
+                    <p class="job">Créateur du site</p>
+                </div>
+                <p class="txt-contact">Realusty, développeur amateur, navigue entre le monde du code (HTML, CSS,
+                    JavaScript) et celui des gangs de Los Angeles, offrant une perspective singulière qui fusionne deux
+                    univers distincts.</p>
+            </div>
         </div>
 
         <div class="contact-card last-card">
-            <i class="fa-solid fa-user" style="color: #0665ff;"></i>
+            <div>
+                <i class="fa-solid fa-user" style="color: #0665ff;"></i>
+            </div>
+           <div>
             <div class="a-cote">
                 <h3 class="name-contact">Blovvv</h3>
                 <i class="fa-solid fa-address-card" style="color: #0665ff;"></i>
@@ -110,6 +126,7 @@
             <p class="txt-contact">Blovvv, expert des gangs de Los Angeles, maîtrise parfaitement la culture des sets.
                 Son savoir approfondi en fait un guide incontournable pour ceux qui souhaitent comprendre ce monde
                 complexe.</p>
+           </div>
         </div>
     </main>
 
@@ -154,6 +171,10 @@
         </div>
      </footer>
 
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+     <script>
+        AOS.init();
+      </script>
     <script src="https://kit.fontawesome.com/474b53fd86.js" crossorigin="anonymous"></script>
     <script src="assets/js/script.js"></script>
 </body>
