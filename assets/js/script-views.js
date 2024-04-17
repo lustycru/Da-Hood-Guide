@@ -13,9 +13,7 @@ closeBtn.addEventListener('click', function(e){
     sideNav.classList.remove('active')
 })
 
-
 randomBtn.addEventListener('click', function(e){
-    var viewsDirectory = "views/";
     var pages = [
     "credits.html",
     "graffitis.html",
@@ -25,6 +23,8 @@ randomBtn.addEventListener('click', function(e){
     ];
 
     var randomIndex = Math.floor(Math.random() * pages.length);
-    var randomPage = viewsDirectory + pages[randomIndex];
+    var randomPage = pages[randomIndex];
+
     window.location.href = randomPage;
 })
+

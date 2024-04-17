@@ -391,13 +391,18 @@ ul{
 }
 
 .footer-col h4{
-  font-size: 18px;
+  font-size: 24px;
   color: #D9D9D9;
   text-transform: capitalize;
   margin-bottom: 35px;
   font-weight: 500;
   position: relative;
   font-family: "Titillium Web", sans-serif;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .footer-col h4::before{
@@ -416,7 +421,7 @@ ul{
 }
 
 .footer-col ul li a{
-  font-size: 16px;
+  font-size: 22px;
   text-transform: capitalize;
   color: #ffffff;
   text-decoration: none;
