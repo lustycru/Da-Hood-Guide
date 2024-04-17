@@ -33,7 +33,7 @@ body {
     margin-bottom: 10px;
 }
 
-.lexique-contain {
+.graffitis-contain {
     background-color: #1D2261;
     width: 70%;
     text-align: center;
@@ -148,9 +148,9 @@ body {
     font-weight: 600;
 }
 
-.appel-bleu-contain {
-    background-color: #D3EFFF;
-    border-left: 10px #0665FF solid;
+.appel-vert-contain {
+    background-color: #EAFDEB;
+    border-left: 10px #5B895D solid;
     display: flex;
     align-items: center;
     width: 90%;
@@ -161,13 +161,13 @@ body {
     margin-bottom: 54px ;
 }
 
-.appel-bleu-txt {
+.appel-vert-txt {
     padding-right: 10px;
     text-align: left;
     font-size: 22px;
 }
 
-.appel-bleu-contain i {
+.appel-vert-contain i {
     font-size: 38px;
     padding-right: 22px;
     padding-left: 20px;
@@ -264,7 +264,7 @@ ul {
     list-style-type: none;
 }
 
-.lexique {
+.text-graffitis {
     color: white;
     font-size: 20px;
     text-align: left;
@@ -273,6 +273,17 @@ ul {
     margin-right: auto;
 }
 
-.lexique span {
-    text-decoration: underline;
+.tag-contain img {
+    height: 100%;
+    width: 50%;
+}
+
+.tag-contain {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
 }
