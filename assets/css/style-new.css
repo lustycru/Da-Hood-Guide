@@ -7,7 +7,7 @@
 
 
 body {
-    font-family: "Titillium Web", sans-serif; 
+    font-family: "Titillium Web", sans-serif;
     background-color: rgb(23, 18, 54);
     margin: 0;
     padding: 0;
@@ -33,7 +33,7 @@ body {
     margin-bottom: 10px;
 }
 
-.notice-contain {
+.insignes-contain {
     background-color: #1D2261;
     width: 70%;
     text-align: center;
@@ -148,9 +148,9 @@ body {
     font-weight: 600;
 }
 
-.appel-vert-contain {
-    background-color: #EAFDEB;
-    border-left: 10px #5B895D solid;
+.appel-orange-contain {
+    background-color: #FEE3D3;
+    border-left: 10px #C56F40 solid;
     display: flex;
     align-items: center;
     width: 90%;
@@ -161,61 +161,19 @@ body {
     margin-bottom: 54px ;
 }
 
-.appel-vert-txt {
+.appel-orange-txt {
     padding-right: 10px;
     text-align: left;
     font-size: 22px;
 }
 
-.appel-vert-contain i, .bleu i, .orange i {
+.appel-orange-contain i {
     font-size: 38px;
     padding-right: 22px;
     padding-left: 20px;
     text-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
-
-.txt-notice, .txt-vetements, .txt-quotidien, .txt-argent, .txt-beef, .txt-hierarchie, .evenement-txt {
-    color: #D9D9D9;
-    text-align: left;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 20px;
-}
-
-.drip-us {
-    height: 300px;
-    padding-right: 30px;
-}
-
-.bleu {
-    background-color: #D3EFFF;
-    border-color: #0665FF;
-}
-
-.quotidien {
-    height: 380px;
-}
-
-.argent {
-    height: 240px;
-}
-
-.drogue {
-    border-radius: 10px;
-    padding-right: 0;
-    margin-right: 30px;
-}
-
-.orange {
-    background-color: #FEE3D3;
-    border-color: #C56F40;
-}
-
-.evenement {
-    height:350px ;
-}
 
 .footer{
     background-color: hsl(217, 100%, 51%, 0.10);;
@@ -304,4 +262,32 @@ body {
 
 ul {
     list-style-type: none;
+}
+
+.text-insignes {
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.intro, .diss-img {
+    padding-bottom: 50px;
+}
+
+.tag-contain img {
+    height: 100%;
+    width: 50%;
+}
+
+.tag-contain {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
 }
