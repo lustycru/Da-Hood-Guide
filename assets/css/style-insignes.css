@@ -3,6 +3,7 @@
 * {
     scroll-behavior: smooth;
     padding: 0;
+    scrollbar-width: none;
 }
 
 
@@ -311,3 +312,15 @@ ul {
 .diss10 {
     width: 400px;
 }
+
+@media(max-width: 767px){
+    .footer-col{
+      width: 50%;
+      margin-bottom: 30px;
+  }
+  }
+  @media(max-width: 574px){
+    .footer-col{
+      width: 100%;
+  }
+  }

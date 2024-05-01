@@ -3,6 +3,7 @@
 * {
     scroll-behavior: smooth;
     padding: 0;
+    scrollbar-width: none;
 }
 
 
@@ -276,3 +277,15 @@ ul {
 .lexique span {
     text-decoration: underline;
 }
+
+@media(max-width: 767px){
+    .footer-col{
+      width: 50%;
+      margin-bottom: 30px;
+  }
+  }
+  @media(max-width: 574px){
+    .footer-col{
+      width: 100%;
+  }
+  }

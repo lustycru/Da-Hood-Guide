@@ -18,8 +18,9 @@ randomBtn.addEventListener('click', function(e){
     "credits.html",
     "graffitis.html",
     "index-notice.html",
-    'insignes.html',
+    "insignes.html",
     "lexique.html",
+    "baseball-affil.html"
     ];
 
     var randomIndex = Math.floor(Math.random() * pages.length);

@@ -3,6 +3,7 @@
 * {
     scroll-behavior: smooth;
     padding: 0;
+    scrollbar-width: none;
 }
 
 
@@ -33,7 +34,7 @@ body {
     margin-bottom: 10px;
 }
 
-.insignes-contain {
+.credits-contain {
     background-color: #1D2261;
     width: 70%;
     text-align: center;
@@ -148,32 +149,6 @@ body {
     font-weight: 600;
 }
 
-.appel-orange-contain {
-    background-color: #FEE3D3;
-    border-left: 10px #C56F40 solid;
-    display: flex;
-    align-items: center;
-    width: 90%;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 54px ;
-}
-
-.appel-orange-txt {
-    padding-right: 10px;
-    text-align: left;
-    font-size: 22px;
-}
-
-.appel-orange-contain i {
-    font-size: 38px;
-    padding-right: 22px;
-    padding-left: 20px;
-    text-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-}
-
 
 .footer{
     background-color: hsl(217, 100%, 51%, 0.10);;
@@ -228,7 +203,7 @@ body {
     display: block;
     transition: all 0.3s ease;
     font-family: "Titillium Web", sans-serif;
-}
+  }
 
 .footer-col ul li a:hover{
   color: #ffffff;
@@ -264,7 +239,33 @@ ul {
     list-style-type: none;
 }
 
-.text-insignes {
+.appel-bleu-contain {
+    background-color: #D3EFFF;
+    border-left: 10px #0665FF solid;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 54px ;
+}
+
+.appel-bleu-txt {
+    padding-right: 10px;
+    text-align: left;
+    font-size: 22px;
+}
+
+.appel-bleu-contain i {
+    font-size: 38px;
+    padding-right: 22px;
+    padding-left: 20px;
+    text-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.text-credits {
     color: white;
     font-size: 20px;
     text-align: left;
@@ -273,21 +274,24 @@ ul {
     margin-right: auto;
 }
 
-.intro, .diss-img {
+.text-credits p {
+    padding-top: 50px;
     padding-bottom: 50px;
 }
 
-.tag-contain img {
-    height: 100%;
-    width: 50%;
+.text-credits hr {
+    width: 30%;
+    opacity: 50%;
 }
 
-.tag-contain {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    width: 90%;
-    margin-right: auto;
-    margin-left: auto;
-}
+@media(max-width: 767px){
+    .footer-col{
+      width: 50%;
+      margin-bottom: 30px;
+  }
+  }
+  @media(max-width: 574px){
+    .footer-col{
+      width: 100%;
+  }
+  }
