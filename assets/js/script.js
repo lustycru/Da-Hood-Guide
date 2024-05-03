@@ -2,9 +2,8 @@ const sideNav = document.querySelector('.my-side-nav');
 const openBtn = document.querySelector('.fa-bars');
 const closeBtn = document.querySelector('.close');
 const randomBtn = document.querySelector('.random')
-const questionFaq = document.querySelector('.question')
-const reponseFaq = document.querySelector('.reponse')
-
+const questionFaq = document.querySelectorAll('.question')
+const reponseFaq = document.querySelectorAll('.reponse')
 const frenchFlag = document.querySelector('.french-flag')
 const usaFlag = document.querySelector('.usa-flag')
 
@@ -32,6 +31,12 @@ randomBtn.addEventListener('click', function(e){
     window.location.href = randomPage;
 })
 
-questionFaq.addEventListener('click', function(e){
-    reponseFaq.style.display = 'block';
-});
+for(let i = 0; i < questionFaq.length; i++) {
+    questionFaq[i].addEventListener('click', function(e){
+        if(reponseFaq[i].style.display === 'block'){
+            reponseFaq[i].style.display = 'none'
+        } else {
+            reponseFaq[i].style.display = 'block'
+        }
+    });
+}
